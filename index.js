@@ -146,6 +146,7 @@ var Router = React.createClass({
         toRoute={this.onForward}
         toBack={this.onBack}
         customAction={this.customAction}
+        navbarContainerStyle={this.props.navbarContainerStyle}
       />
     }
 
